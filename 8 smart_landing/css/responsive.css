@@ -1,0 +1,130 @@
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 45px;
+  }
+
+  .header h1 {
+    font-size: 30px;
+  }
+  .header h2 {
+    padding-top: 210px;
+  }
+  .header p {
+    font-size: 15px;
+  }
+  .header form {
+    height: 338px;
+    width: 302px;
+  }
+  .header form h3 {
+    font-size: 19px;
+    padding: 18px 0 24px 0;
+  }
+  .header form input, .header form textarea {
+    width: 223px;
+    font-size: 15px;
+  }
+  .header textarea {
+    height: 45px;
+    font-size: 12px;
+  }
+  .header .btn {
+    padding: 11px 65px 16px 67px;
+  }
+
+  /* ******* working ******** */
+  .working .block_set {
+    width: 951px;
+  }
+  .working .block1, .working .block2, .working .block3, .working .block4 {
+    height: 223px;
+    width: 212px;
+    margin-left: 20px;
+  }
+  .working .block1 h4, .working .block2 h4, .working .block3 h4, .working .block4 h4 {
+    margin-top: 100px;
+    font-size: 18px;
+  }
+  .working .block1 p, .working .block2 p, .working .block3 p, .working .block4 p {
+    font-size: 13px;
+    margin: 32px 0 35px 0;
+  }
+  .working .block1 {
+    background-position: 89px 46px;
+  }
+  .working .block2 {
+    background-position: 89px 46px;
+  }
+  .working .block3 {
+    background-position: 80px 42px;
+  }
+  .working .block4 {
+    background-position: 82px 43px;
+  }
+  .working a {
+    padding: 11px 45px 16px 47px;
+    border-radius: 60px;
+  }
+
+  .featured .orange_set {
+    width: 780px;
+  }
+  .featured .orange1, .featured .orange2, .featured .orange3, .featured .orange4, .featured .orange5, .featured .orange6, .featured .orange7, .featured .orange8, .featured .orange9 {
+    float: left;
+  }
+  .featured .orange3 {
+    margin-right: 25px;
+  }
+
+  .services h2 {
+    padding-top: 84px;
+  }
+  .services p {
+    margin-bottom: 60px;
+  }
+  .services .modern .img1, .services .modern .img2, .services .modern .img3, .services .modern .img4 {
+    margin-left: 58px;
+    cursor: pointer;
+  }
+  .services .modern .modern1, .services .modern .modern2, .services .modern .modern3, .services .modern .modern4 {
+    width: 610px;
+  }
+  .services .modern .modern1 img {
+    height: 300px;
+  }
+  .services .modern .modern1 a {
+    bottom: -70px;
+  }
+
+  .clients .thiswas {
+    margin-left: 50px;
+    height: 311px;
+    width: 236px;
+  }
+  .clients .thiswas p {
+    font-size: 14px;
+    margin: 30px;
+  }
+
+  .contact .partners a:nth-child(1) img {
+    margin-left: 200px;
+  }
+  .contact .partners a:nth-child(4) img {
+    display: none;
+  }
+  .contact .partners a:nth-child(5) img {
+    display: none;
+  }
+  .contact .partners a:nth-child(6) img {
+    display: none;
+  }
+
+  .contact .buttonnn {
+    left: 450px !important;
+  }
+  .contact .sots {
+    left: 300px !important;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,168 @@
+@media screen and (max-width: 1024px)  {
+h2 {
+	font-size: 45px;
+}
+
+
+.header {
+	h1{
+		font-size: 30px;
+	}
+	h2{
+		padding-top: 210px;
+	}
+	p{
+		font-size: 15px;
+	}
+	form{
+		height: 338px;
+		width: 302px;
+		
+		h3{
+			font-size: 19px;
+			padding: 18px 0 24px 0;
+		}
+	}
+	form input,  form textarea {
+		width: 223px;
+		font-size: 15px;
+	}
+	textarea{
+		height:45px;
+		font-size: 12px;
+	}
+	.btn{
+		padding: 11px 65px 16px 67px;
+	}
+}
+	/* ******* working ******** */
+
+.working{
+	.block_set{
+		width: 951px;
+	}
+	.block1, .block2, .block3, .block4 {
+		height: 223px;
+		width: 212px;
+		margin-left: 20px;
+	}
+	.block1 h4, .block2 h4,  .block3 h4, .block4 h4 {
+		margin-top: 100px;
+		font-size: 18px;
+	}
+	.block1 p, .block2 p,.block3 p, .block4 p {
+		font-size: 13px;
+		margin: 32px 0 35px 0;
+	}
+	.block1 {
+		background-position: 89px 46px;
+	}
+	.block2 {
+		background-position: 89px 46px;
+	}
+	.block3 {
+		background-position: 80px 42px;
+	}
+	.block4 {
+		background-position: 82px 43px;
+	}
+	a{
+		padding: 11px 45px 16px 47px;
+		border-radius: 60px;
+	}
+	
+}
+
+.featured {
+	.orange_set{
+		width: 780px;
+	}
+	.orange1, .orange2, .orange3, .orange4, .orange5, .orange6, .orange7, .orange8,.orange9{
+		float: left;
+	}
+	.orange3{
+		margin-right: 25px;
+	}
+}
+
+.services{
+	h2{
+		padding-top: 84px;
+	}
+	p {
+		margin-bottom: 60px;
+	}
+	.modern{
+		.img1, .img2, .img3, .img4{
+			margin-left: 58px;
+			cursor: pointer;
+		}
+		.modern1, .modern2, .modern3, .modern4{
+			width: 610px;
+		}
+		.modern1{
+			img{
+				height: 300px;
+			}
+			a{
+				bottom: -70px;
+			}
+		}
+	}
+	
+}
+
+.clients{
+	.thiswas{
+		margin-left: 50px;
+		height: 311px;
+		width: 236px;
+		
+		p{
+			font-size: 14px;
+			margin:30px;
+		}
+		
+	}
+	
+}
+
+.contact{
+	.partners{
+		a{
+			&:nth-child(1) img{margin-left: 200px;}
+			&:nth-child(4) img{display: none}
+			&:nth-child(5) img{display: none}
+			&:nth-child(6) img{display: none}
+		}
+	}
+}
+
+
+.contact{
+	.buttonnn{
+		left: 450px!important;
+	}
+	.sots{
+		left: 300px!important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+}

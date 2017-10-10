@@ -172,6 +172,8 @@ span {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.03);
 }
 
+
+	/* ******** featured ********* */
 .featured {
   background: #FBFBFB;
   overflow: scroll;
@@ -187,7 +189,6 @@ span {
   line-height: 32px;
 }
 .featured .orange_set {
-  /* outline: 1px solid black; */
   width: 1147px;
   margin: 0 auto;
 }
@@ -204,6 +205,7 @@ span {
   margin-right: 0;
 }
 
+/*  ****** services ****** */
 .services h2 {
   padding-top: 154px;
 }
@@ -292,6 +294,7 @@ span {
   display: none;
 }
 
+/* ******* clients ******** */
 .clients {
   overflow: hidden;
 }
@@ -346,6 +349,7 @@ span {
   margin: 141px auto 0 auto;
 }
 
+/* ***** contact ********* */
 .contact .partners {
   height: 40%;
   background: #FBFBFB;
