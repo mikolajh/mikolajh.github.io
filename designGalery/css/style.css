@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
+body {
+  background: #010D0D;
+}
+
+h2 {
+  padding: 10px 0 0 30px;
+  color: #007b78;
+  font-family: 'Dancing Script', cursive;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+h3 {
+  padding: 10px 0 20px 30px;
+  color: #000;
+  font-family: 'Dancing Script', cursive;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+p {
+  color: #000;
+  font-family: Arial;
+  font-size: 12px;
+  margin: 0 15px 10px 0;
+  line-height: 20px;
+}
+
+a {
+  color: #902200;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.top {
+  background: url(../images/templatemo_bg_top.jpg) no-repeat;
+  background-position: right 20px;
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  height: 170px;
+  background: url(../images/templatemo_header.jpg) no-repeat;
+  background-position: center 13px;
+}
+
+.menu {
+  width: 820px;
+  margin: 0 auto;
+  height: 100px;
+  background: url(../images/templatemo_white_content_top.jpg) no-repeat;
+  background-position: center 0px;
+  position: relative;
+}
+.menu ul {
+  font-size: 0px;
+  position: absolute;
+  top: 27px;
+  left: 245px;
+}
+.menu ul li {
+  padding: 2px 10px;
+  float: left;
+  border-left: 1px solid #fff;
+}
+.menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font: bold 10px Tahoma;
+  color: #00FFFF;
+}
+.menu ul li:nth-child(1) {
+  text-decoration: underline;
+  border-left: none;
+}
+
+.welcome {
+  width: 820px;
+  height: 290px;
+  margin: 0 auto;
+  background: url(../images/templatemo_white_content_middle.jpg) repeat-y;
+}
+.welcome .this {
+  height: 220px;
+  margin-top: 30px;
+  padding-left: 290px;
+  background: url(../images/templatemo_thumb_1.jpg) no-repeat;
+  background-position: 20px 0;
+}
+
+.line {
+  height: 48px;
+  width: 821px;
+  margin: 0 auto;
+  background: url(../images/templatemo_white_blue_joint.jpg) no-repeat;
+  background-position: center 0px;
+}
+
+.bottom {
+  background: url(../images/templatemo_bg_middle.jpg) no-repeat;
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.gallery {
+  height: 202px;
+  width: 821px;
+  margin: 0 auto;
+  background: url(../images/templatemo_blue_content_bg.jpg);
+  background-position: center 0px;
+}
+.gallery .aliquam {
+  width: 455px;
+  margin: 18px 15px 22px 18px;
+  float: left;
+}
+.gallery .images {
+  margin-top: 15px;
+}
+
+.line2 {
+  width: 821px;
+  margin: 0 auto;
+  height: 71px;
+  background: url(../images/templatemo_blue_2_col_joint.jpg) no-repeat;
+}
+
+.whoTest {
+  width: 821px;
+  margin: 0 auto;
+  height: 270px;
+  background: url(../images/templatemo_blue_2_col_bg.jpg) repeat-y;
+}
+.whoTest .who {
+  width: 446px;
+  float: left;
+}
+.whoTest .who ul {
+  padding: 1px 0 0 160px;
+  list-style-image: url(../images/templatemo_bullet.jpg);
+  background: url(../images/1.jpg) no-repeat;
+  background-position: 15px 1px;
+}
+.whoTest .who ul li a {
+  color: #000;
+  line-height: 22px;
+  text-decoration: underline;
+}
+.whoTest .testimonials {
+  width: 246px;
+  float: left;
+  padding-right: 110px;
+  background: url(../images/2.jpg) no-repeat;
+  background-position: 230px 40px;
+}
+.whoTest .testimonials .red {
+  color: #af1b03;
+  font-weight: bold;
+}
+
+.line3 {
+  width: 821px;
+  margin: 0 auto;
+  height: 71px;
+  background: url(../images/templatemo_blue_2_col_bottom.jpg) no-repeat;
+}
+
+.footer {
+  width: 821px;
+  margin: 0 auto;
+}
+.footer p {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
