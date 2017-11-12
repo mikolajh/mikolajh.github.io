@@ -1,0 +1,188 @@
+
+@media screen and (min-device-width: 320px) and (max-device-width: 375px) { 
+	body{
+		width: 100%;
+		overflow-x: hidden;
+	}
+	h2{
+		padding-top: 70px;
+	}
+	.header{
+		height: 700px;
+	}
+	.hello{
+		h1{
+			font-size: 35px !important;
+		}
+		h2{
+			font-size: 21px!important;
+		}
+		img{
+			width: 200px!important;
+		}
+		p{
+			font-size: 15px!important;
+		}
+	}
+	.flags{
+		margin: 70px 20px 10px 30px!important;
+	}
+	
+	.skills{
+		height: 2000px!important;;
+		.container{
+			width: 318px !important;
+			
+			.html, .css, .js, .jq .sass, .photoshop, .bootstrap{
+				margin-left: 50px;
+			}
+		}
+	}
+	
+	.portfolio{
+		height: 710px!important;;
+
+		.item{
+			img{
+				height: 200px;
+				width: 290px;
+			}
+		}
+		.carousel{
+			width: 98%;
+		}
+		.carousel-inner{
+			height: 130px;
+		}
+	}
+	.footer{
+		height: 140px!important;;	
+	}
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 425px) { 
+	body{
+		width: 100%;
+		overflow-x: hidden;
+	}
+	h2{
+		padding-top: 100px;
+	}
+	.header{
+		height: 700px;
+	}
+	.hello{
+		h1{
+			font-size: 35px !important;
+		}
+		h2{
+			font-size: 21px!important;
+		}
+		img{
+			width: 200px!important;
+		}
+		p{
+			font-size: 15px!important;
+		}
+	}
+	.flags{
+		margin: 70px 65px 10px!important;
+	}
+	
+	.skills{
+		height: 2000px!important;;
+		.container{
+			width: 318px !important;
+			
+			.html, .css, .js, .jq .sass, .photoshop, .bootstrap{
+				margin-left: 50px;
+			}
+		}
+	}
+	
+	.portfolio{
+		height: 600px;
+
+		.item{
+			img{
+				height: 200px;
+				width: 290px;
+			}
+		}
+		.carousel{
+			width: 98%;
+		}
+		.carousel-inner{
+			height: 130px;
+		}
+	}
+	.footer{
+		height: 90px;	
+	}
+}
+
+@media screen and (min-device-width: 425px) and (max-device-width: 768px) { 
+	body{
+		width: 100%;
+		overflow-x: hidden;
+	}
+	h2{
+		padding-top: 110px!important;
+	}
+	
+	.flags{
+		margin: 20px 90px;
+	}
+	
+	.skills{
+		height: 1900px!important;;
+		.container{
+			width: 318px !important;
+			
+			.html, .css, .js, .jq .sass, .photoshop, .bootstrap{
+				margin-left: 50px;
+			}
+		}
+	}
+	
+	.portfolio{
+		height: 830px!important;
+		.item{
+			height: 100%;
+			img{
+				margin: 0 auto;
+			}
+		}
+		.carousel{
+			width: 100%;
+		}
+	}
+	.footer{
+		height: 90px;	
+	}
+}
+	
+@media screen and (min-device-width: 760px) and (max-device-width: 992px) {
+	h2{
+		padding-top: 100px;
+	}
+	.skills{
+		height: 1300px!important;
+		
+	}	
+	.portfolio{
+		height: 930px!important;
+		.item{
+			height: 100%;
+			img{
+				margin: 0 auto;
+			}
+		}
+		.carousel{
+			width: 100%;
+		}
+	}
+}
+
+
+

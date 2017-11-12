@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway|Roboto");
+h2 {
+  margin-top: 0;
+  padding: 200px 0 0 10px;
+  font-family: 'Roboto', serif;
+  font-size: 33px !important;
+  color: #ECE8EC;
+}
+
+hr {
+  opacity: .5;
+}
+
+.header {
+  background: url(../images/header_bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 953px;
+  width: 100% !important;
+  overflow: hidden;
+}
+.header .col-xs-12, .header .col-sm-12, .header .col-md-12, .header .col-lg-12 {
+  clear: left;
+}
+.header .navbar-brand {
+  padding-left: 100px;
+}
+.header .fa {
+  color: #fff;
+  font-size: 20px;
+}
+.header .fa:hover {
+  color: #000;
+}
+.header .glyphicon {
+  color: #fff;
+  font-size: 19px;
+}
+.header .contact {
+  color: #fff;
+  font-size: 17px;
+  padding-top: 12px;
+}
+.header .collapse {
+  margin-right: 40px;
+}
+.header .hello {
+  margin: 30px auto;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.header .hello h1 {
+  font-size: 70px;
+  color: #ECE8EC;
+  text-shadow: 1px 0 10px rgba(0, 0, 0, 0.8);
+  padding-top: 40px;
+}
+.header .hello img {
+  width: 300px;
+}
+.header .hello h2 {
+  padding-top: 30px;
+  text-shadow: 1px 0 10px rgba(0, 0, 0, 0.8);
+}
+.header .hello p {
+  font-size: 20px;
+  color: #ECE8EC;
+  text-shadow: 1px 0 10px rgba(0, 0, 0, 0.8);
+}
+.header .flags {
+  margin-top: 70px;
+  width: 200px;
+  height: 50px;
+  float: right;
+}
+.header .flags a {
+  text-decoration: none;
+  margin: 7px;
+}
+.header .active {
+  border: 1px solid #fff;
+  padding: 3px;
+}
+
+.skills {
+  background: linear-gradient(to bottom right, #2E0834, #166379);
+  height: 700px;
+  color: #ECE8EC;
+  font-size: 19px;
+}
+.skills .html, .skills .css, .skills .js, .skills .jq, .skills .sass, .skills .photoshop, .skills .bootstrap {
+  height: 220px;
+  width: 170px;
+  background-size: 170px;
+  position: relative;
+  float: left;
+  margin: 0 57px 40px 57px;
+}
+.skills .html p, .skills .css p, .skills .js p, .skills .jq p, .skills .sass p, .skills .photoshop p, .skills .bootstrap p {
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+}
+.skills .html {
+  background: url(../images/html5.svg) no-repeat;
+}
+.skills .css {
+  background: url(../images/css3.svg) no-repeat;
+}
+.skills .css {
+  background: url(../images/css3.svg) no-repeat;
+}
+.skills .js {
+  background: url(../images/javascript.svg) no-repeat;
+}
+.skills .js p {
+  left: 40px;
+}
+.skills .jq {
+  background: url(../images/jquery.svg) no-repeat;
+}
+.skills .sass {
+  background: url(../images/sass.svg) no-repeat;
+}
+.skills .photoshop {
+  background: url(../images/photoshop.svg) no-repeat;
+}
+.skills .photoshop p {
+  left: 10px;
+}
+.skills .bootstrap {
+  background: url(../images/bootstrap.svg) no-repeat;
+}
+.skills .bootstrap p {
+  left: 29px;
+}
+
+.portfolio {
+  padding-top: 200px;
+  background: linear-gradient(to bottom left, #166379, #2E0834);
+  height: 1100px;
+  color: #ECE8EC;
+  font-size: 19px;
+}
+.portfolio .item {
+  height: 375px;
+}
+.portfolio .item img {
+  margin: 0 auto;
+}
+.portfolio .carousel {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer {
+  background: linear-gradient(to bottom, #282248, #fff);
+  height: 60px;
+}
+.footer p {
+  font-weight: bold;
+  text-align: center;
+  font-size: 17px;
+  line-height: 70px;
+  padding: 30px auto;
+}
+
+/*# sourceMappingURL=style.css.map */
