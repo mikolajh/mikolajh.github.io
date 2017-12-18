@@ -10,6 +10,10 @@ h2{
 hr{
 	opacity: .5;
 }
+.container-fullwidth{
+	/* min-width: 616px; */
+	min-width: 320px;
+}
 .header{
 	background: url(../images/header_bg.jpg) no-repeat;
 	background-size: cover;
@@ -88,7 +92,7 @@ hr{
 }
 .skills{
 	background: linear-gradient( to bottom right, #2E0834, #166379);
-	height: 700px;
+	height: 800px;
 	color: $color;
 	font-size: 19px;
 	
@@ -148,7 +152,7 @@ hr{
 .portfolio{
 	padding-top: 200px;
 	background: linear-gradient( to bottom left, #166379, #2E0834);
-	height: 1100px;
+	height: 1200px;
 	color: $color;
 	font-size: 19px;
 	.item{
